@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/*-------Global Classes-------*/
+a {
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+/*---x---Global Classes---x---*/
+
+/*----------Navbar-------*/
+.nav {
+  background-color: #fff;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 40vh;
+  overflow: hidden;
+}
+
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  display: block;
+}
+
+.nav .social {
+  padding: 1.4rem 0;
+}
+
+/*-------x--Navbar--x----*/
