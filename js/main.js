@@ -7,3 +7,6 @@ $(document).ready(function () {
     $nav.toggleClass("collapse");
   });
 });
+
+//owl-carousel
+$(".owl-carousel").owlCarousel();
